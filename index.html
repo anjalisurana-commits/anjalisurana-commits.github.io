@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<section class="intro"><h1>Thoughts on AI safety.</h1><p>Notes, questions, and ideas.</p></section>
+<section class="intro"><h1>{{ site.data.home.heading | escape }}</h1><p>{{ site.data.home.subtitle | escape }}</p></section>
 <section class="writing" id="writing"><div class="section-label">Writing</div>
 {% assign groups = site.posts | group_by: "topic" %}
 {% for group in groups %}<section class="topic">{% if group.name != "" %}<h2>{{ group.name | escape }}</h2>{% endif %}
