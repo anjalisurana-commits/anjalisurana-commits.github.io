@@ -16,6 +16,9 @@ content:
       - name: description
         label: Short description (optional)
         type: string
+      - name: topic
+        label: Topic (optional)
+        type: string
       - name: layout
         type: string
         default: post
