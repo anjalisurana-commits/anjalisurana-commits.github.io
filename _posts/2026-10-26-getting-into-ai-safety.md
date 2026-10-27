@@ -1,5 +1,5 @@
 ---
-title: Running list of random concepts I came across
+title: Oddities and things I didn't know had names
 layout: post
 ---
 **Cunningham’s Law** 
