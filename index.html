@@ -1,6 +1,5 @@
 ---
 layout: default
 ---
-<section class="intro"><p class="eyebrow">A PLACE TO THINK OUT LOUD</p><h1>Thoughts, questions,<br>and things I'm learning<span>.</span></h1><p>Mostly about AI safety. Sometimes about other things.</p></section>
-<section class="writing"><div class="section-head"><h2>Writing</h2><span>NOTES &amp; IDEAS</span></div>
-{% for post in site.posts %}<a class="post" href="{{ post.url | relative_url }}"><span><strong>{{ post.title | escape }}</strong>{% if post.description %}<small>{{ post.description | escape }}</small>{% endif %}</span><span class="post-date">{{ post.date | date: "%b %-d, %Y" }} <b>↗</b></span></a>{% else %}<p class="empty">More soon.</p>{% endfor %}</section>
+<section class="writing"><h1>Writing</h1>
+{% for post in site.posts %}<a class="post" href="{{ post.url | relative_url }}"><span><strong>{{ post.title | escape }}</strong>{% if post.description %}<small>{{ post.description | escape }}</small>{% endif %}</span><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span></a>{% endfor %}</section>
