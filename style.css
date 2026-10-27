@@ -4,3 +4,5 @@
 .theme-bar #theme-toggle{position:relative;display:flex;align-items:center;justify-content:space-between;width:54px;height:28px;padding:0 7px;border:1px solid #bbb;border-radius:999px;background:#eee;color:#555;font-size:14px;line-height:1}.theme-bar #theme-toggle .sun,.theme-bar #theme-toggle .moon{position:relative;z-index:1}.toggle-knob{position:absolute;left:3px;top:3px;width:20px;height:20px;border-radius:50%;background:#fff;box-shadow:0 1px 3px #0003;transition:transform .2s}.theme-bar #theme-toggle:focus-visible{outline:2px solid currentColor;outline-offset:3px}html[data-theme="dark"] .theme-bar #theme-toggle{background:#333;border-color:#666;color:#eee}html[data-theme="dark"] .toggle-knob{transform:translateX(26px);background:#555}
 
 .theme-bar{position:absolute;top:63px;left:50%;width:100%;transform:translateX(-50%);padding:0 28px}.intro h1{padding-right:76px}@media(max-width:600px){.theme-bar{top:50px}.intro h1{padding-right:70px}}
+
+.theme-bar{pointer-events:none}.theme-bar #theme-toggle{pointer-events:auto}
