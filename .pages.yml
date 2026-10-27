@@ -26,3 +26,14 @@ content:
       - name: body
         label: Your writing
         type: rich-text
+  - name: homepage
+    label: Homepage text
+    type: file
+    path: _data/home.yml
+    fields:
+      - name: heading
+        label: Heading
+        type: string
+      - name: subtitle
+        label: Subtitle
+        type: string
