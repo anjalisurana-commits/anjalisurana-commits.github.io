@@ -1,5 +1,5 @@
 ---
-title: Oddities and things I didn't know had names
+title: Things I didn't know had names
 layout: post
 ---
 **Cunningham’s Law** 
