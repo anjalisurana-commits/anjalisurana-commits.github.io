@@ -4,5 +4,5 @@ layout: default
 <section class="intro"><h1>Thoughts on AI safety.</h1><p>Notes, questions, and ideas.</p></section>
 <section class="writing" id="writing"><div class="section-label">Writing</div>
 {% assign groups = site.posts | group_by: "topic" %}
-{% for group in groups %}<section class="topic"><h2>{% if group.name == "" %}Writing{% else %}{{ group.name | escape }}{% endif %}</h2>
+{% for group in groups %}<section class="topic">{% if group.name != "" %}<h2>{{ group.name | escape }}</h2>{% endif %}
 {% for post in group.items %}<a class="post" href="{{ post.url | relative_url }}"><time>{{ post.date | date: "%B %-d, %Y" }}</time><h3>{{ post.title | escape }}</h3>{% if post.description %}<p>{{ post.description | escape }}</p>{% endif %}</a>{% endfor %}</section>{% endfor %}</section>
