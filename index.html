@@ -1,5 +1,8 @@
 ---
 layout: default
 ---
-<section class="writing"><h1>Writing</h1>
-{% for post in site.posts %}<a class="post" href="{{ post.url | relative_url }}"><span><strong>{{ post.title | escape }}</strong>{% if post.description %}<small>{{ post.description | escape }}</small>{% endif %}</span><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span></a>{% endfor %}</section>
+<section class="intro"><h1>Thoughts on AI safety.</h1><p>Notes, questions, and ideas.</p></section>
+<section class="writing" id="writing"><div class="section-label">Writing</div>
+{% assign groups = site.posts | group_by: "topic" %}
+{% for group in groups %}<section class="topic"><h2>{% if group.name == "" %}Writing{% else %}{{ group.name | escape }}{% endif %}</h2>
+{% for post in group.items %}<a class="post" href="{{ post.url | relative_url }}"><time>{{ post.date | date: "%B %-d, %Y" }}</time><h3>{{ post.title | escape }}</h3>{% if post.description %}<p>{{ post.description | escape }}</p>{% endif %}</a>{% endfor %}</section>{% endfor %}</section>
