@@ -10,8 +10,6 @@ layout: post
 
 Oct 27th: 
 
-I first heard an argument about AI risk in ~March of this year. Someone I knew (had met like once before) had just quit his job and moved to Berkeley to work on safety. It was our first time catching up in years, but we spent the whole two hours talking about risk (well he spent the whole 2 hours talking at me). I remember I was taking the Caltrain back home to Stanford and called my Dad and that the job that I had just gotten an offer for this week and felt so excited about doing full-time post job just feels so stupid now. I am really, really worried. I remember feeling like any other problem in my life didn't really matter - issues in my relationships, needing to save and pay for my brother's college, my family not visiting for graduation. It all seemed so stupid. I think I was in this headspace for 3-4 days, it's all I thought about. And then I think my daily life took over. It's crazy how Stanford (at least my experience of it - I'm sure there are people and circles where conversations are different) for how AI pilled the school is didn't expose me to any AI safety risks. FYI I was taking 2 intro AI classes at this point. 
-
 
 
 &nbsp;
