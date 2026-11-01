@@ -30,7 +30,7 @@ Goals and alignment
 
 We are the ones building AI systems, training them, and deciding what we want them to do. Why can't we just train them to do what we want?
 
-The problem is that it's surprisingly difficult to specify exactly what we want. Think about how we train AI. We can't write down every possible situation it might encounter and exactly what it should do in each one. Instead, we give it examples, feedback, or rewards for doing things we consider good, and hope it learns the behavior we're trying to encourage. But there's a difference between what we want and what we actually reward.
+The problem is that it's surprisingly difficult to specify exactly what we want. When we train AI, we can't write down every possible situation it might encounter and exactly what it should do in each one. Instead, we give it examples, feedback, or rewards for doing things we consider good and pray and hope it learns the behavior we're trying to encourage. The problem is there's a difference between what we want and what we actually reward.
 
 Consider a social media recommendation algorithm. Suppose our goal is to show people content they'll enjoy. Enjoyment is difficult to measure, so we might use the amount of time people spend on the platform as a proxy. The problem is that maximizing time spent on an app isn't quite the same as maximizing enjoyment. The algorithm might discover that upsetting or controversial content keeps people engaged for longer, and recommend more of it. From the algorithm's perspective, it's succeeding at the task we gave it, even though the outcome isn't what we wanted.
 
