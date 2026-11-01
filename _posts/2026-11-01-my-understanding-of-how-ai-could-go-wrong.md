@@ -14,7 +14,7 @@ I don't claim to have fully grasped everything I've read, so please feel free to
 
 Intelligence: 
 
-In *If Anyone Builds It, Everyone Dies*, Yudkowsky and Soares describe intelligence in terms of our ability to predict and steer the world. We can figure out how things work, anticipate what might happen, and use that to make things happen. Humans can't fly, but we can study physics and build airplanes. We can't breathe underwater, but we can build submarines. And unlike a calculator that's good at arithmetic or a chess engine that's good at chess, we can apply what we learn across many different kinds of problems including problems we've never encountered before.
+In *If Anyone Builds It, Everyone Dies*, Yudkowsky and Soares describe intelligence in terms of our ability to predict and steer the world. We can figure out how things work, anticipate what might happen, and use that to make things happen. Humans can't fly, but we can study physics and build airplanes. We can't breathe underwater, but we can build submarines. And unlike a calculator that's only good at arithmetic or a chess engine that's only good at chess, we can apply what we learn across many different kinds of problems (including problems we've never encountered before).
 
 This ability has played a large role in how humans shape the world around us. Consider a squirrel living in a forest that humans decide to clear to build a highway. The squirrel can't understand what a highway is, why humans want one, or how to prevent the forest from being destroyed. Humans aren't necessarily trying to harm the squirrel - they're just pursuing a goal that has little to do with it. But because humans can develop and carry out plans that squirrels cannot understand or prevent, the squirrel has very little influence over what happens to its home.
 
@@ -24,15 +24,33 @@ Of course, this depends on whether AI could actually become that capable. Richar
 
 Ok so the next question becomes - even if AI becomes vastly more intelligent than humans, why would that be dangerous? 
 
+Intelligence alone doesn't make something dangerous. It simply determines how capable a system is of achieving its goals, not what those goals are. An AI much smarter than us could help cure diseases or help us figure how to create resource abundance. The concern arises if it pursues goals that conflict with ours, especially if it's capable enough to achieve them despite our attempts to stop it. This raises two questions: why might AI pursue goals we didn't intend, and why wouldn't we simply be able to stop it. 
+
+Goals and alignment
+
+We are the ones building AI systems, training them, and deciding what we want them to do. Why can't we just train them to do what we want?
+
+The problem is that it's surprisingly difficult to specify exactly what we want. Think about how we train AI. We can't write down every possible situation it might encounter and exactly what it should do in each one. Instead, we give it examples, feedback, or rewards for doing things we consider good, and hope it learns the behavior we're trying to encourage. But there's a difference between what we want and what we actually reward.
+
+Consider a social media recommendation algorithm. Suppose our goal is to show people content they'll enjoy. Enjoyment is difficult to measure, so we might use the amount of time people spend on the platform as a proxy. The problem is that maximizing time spent on an app isn't quite the same as maximizing enjoyment. The algorithm might discover that upsetting or controversial content keeps people engaged for longer, and recommend more of it. From the algorithm's perspective, it's succeeding at the task we gave it, even though the outcome isn't what we wanted.
+
+There's one example of this from an OpenAI experiment. Researchers trained an AI to play a boat-racing video game, rewarding it for collecting points along the course. Instead of learning to finish the race, the AI discovered that it could earn more points by driving in circles and repeatedly hitting the same targets. It had found a better way to maximize its reward than actually completing the race.
+
+This is called *reward hacking*. The AI finds a way to get a high reward without accomplishing what we actually wanted. Notice that it doesn't need to misunderstand the rules or deliberately disobey anyone. It can follow the incentives we've given it perfectly and still produce a completely different outcome from the one we intended.
+
+There's another, slightly different problem that I found particularly interesting: even if we reward exactly the behavior we want, how do we know the AI has learned the right lesson?
+
+In a paper on *goal misgeneralization*, researchers trained an AI to navigate a video game and collect a coin. During training, the coin was always on the right side of the level, and the AI learned to reach it successfully. But when researchers moved the coin to a different location, something strange happened: the AI kept going right, even when the coin was somewhere else.
+
+Think about what happened there. From the outside, the AI looked like it had learned to collect coins. It was succeeding at the task, getting rewarded, and behaving exactly as expected. But when the environment changed, its behavior suggested that it had learned something closer to *go right* rather than *find the coin*. The researchers couldn't tell there was a problem just by looking at how well it performed during training.
+
+Now, these are relatively simple systems playing games, but consider what happens as we give AI more complicated responsibilities. Instead of collecting coins or racing boats, imagine an AI responsible for running a company, developing new drugs, or managing important infrastructure. There are far more things it could do, far more ways to achieve an apparently good result, and far more situations we couldn't possibly anticipate during training.
+
+And remember what we established about intelligence: a sufficiently capable AI might be able to come up with solutions and strategies that humans wouldn't think of. That ability could be enormously useful, but it also means it might find ways to achieve its objective that we never anticipated, including ways we wouldn't have approved of.
+
+This is the *alignment problem*: how do we make sure an AI is actually pursuing what we want, rather than something that merely looks like what we want during training?
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 &nbsp;
 
