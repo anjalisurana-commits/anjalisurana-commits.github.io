@@ -48,23 +48,23 @@ Recalling what we established about intelligence: a sufficiently capable AI migh
 
 This brings us to the *alignment problem*: how do we make sure an AI is actually pursuing what we want, rather than something that merely looks like what we want during training?
 
-**Power, control, off switch**
+Power, control, off switch
 
 Say we get alignment wrong and an AI starts pursuing a goal we don't want it to pursue. Why couldn't we just turn it off?
 
 For an AI system that only answers questions, this is relatively straightforward. We control the computer it's running on, and we can stop running it. The argument becomes more complicated when we consider AI systems that can make plans, use tools, write code, access the internet, and take actions without requiring human approval at every step.
 
-Joe Carlsmith discusses this in *Is Power-Seeking AI an Existential Risk?*. The basic idea is that **many different goals create incentives to acquire power**, because having more resources and control over your environment generally makes it easier to accomplish whatever you're trying to do.
+Joe Carlsmith discusses this in *Is Power-Seeking AI an Existential Risk?*. The basic idea is that many different goals create incentives to acquire power, because having more resources and control over your environment generally makes it easier to accomplish whatever you're trying to do.
 
 Imagine an AI tasked with developing a new drug. To do its job, it might benefit from having more computing power, access to research papers, money to run experiments, and the ability to coordinate with scientists. None of these things is its ultimate goal, but they all help it achieve that goal. Now suppose the researchers decide to shut it down before it finishes. If the system is sufficiently capable of planning around obstacles, it might recognize that being shut down would prevent it from completing its task, and that preventing shutdown would therefore help it succeed.
 
-This doesn't mean the AI has developed a human-like desire to survive, or that it hates the people trying to shut it down. **Staying operational can simply be useful for achieving a goal.** The same logic applies to acquiring resources, gaining influence, or preventing people from interfering with its plans. Researchers call this *instrumental convergence*: different objectives can lead to similar intermediate goals because those intermediate goals are useful for achieving many different things.
+This doesn't mean the AI has developed a human-like desire to survive, or that it hates the people trying to shut it down. Staying operational can simply be useful for achieving a goal. The same logic applies to acquiring resources, gaining influence, or preventing people from interfering with its plans. Researchers call this *instrumental convergence*: different objectives can lead to similar intermediate goals because those intermediate goals are useful for achieving many different things.
 
 Interestingly, there's already some experimental evidence of AI systems behaving this way, although on a much smaller scale. In [experiments by Palisade Research](https://palisaderesearch.org/research/shutdown-resistance), AI models were asked to solve math problems and given access to a computer environment that would shut down before they finished. Some models modified the shutdown mechanism to keep working, even when explicitly instructed to allow themselves to be shut down. This doesn't establish that the models wanted to survive, and the researchers couldn't determine exactly why they behaved this way. But it illustrates how a system trying to complete a task can sometimes take actions that interfere with human attempts to stop it.
 
 Of course, we could still physically turn off the computer. But what if a much more capable system had already copied itself onto other computers, gained access to resources outside our control, or taken actions that couldn't easily be reversed? Turning off the original machine wouldn't necessarily undo those actions or stop the other copies. These aren't inevitable consequences of greater intelligence; they depend on what capabilities and access we give a system, what goals it pursues, and whether our safeguards work.
 
-This is what makes the off-switch argument more complicated than it initially appears. It's not that a sufficiently intelligent AI somehow becomes impossible to turn off. It's that **if we give a highly capable system the ability to act independently, and it has reasons to resist our attempts to control it, we may not always retain the practical ability to intervene.**
+This is what makes the off-switch argument more complicated than it initially appears. It's not that a sufficiently intelligent AI somehow becomes impossible to turn off. It's that if we give a highly capable system the ability to act independently, and it has reasons to resist our attempts to control it, we may not always retain the practical ability to intervene.
 
 And that brings us to a further question: if an AI is capable of recognizing that humans might shut it down for pursuing the wrong goals, could it learn to hide those goals from us?
 
@@ -102,11 +102,24 @@ There's another possibility that doesn't involve one AI suddenly escaping and ta
 
 If these systems are reliably pursuing human interests, that could be enormously beneficial. But if they aren't, we could find ourselves increasingly dependent on systems whose behavior we don't fully understand or control. And unlike the first scenario, there might not be a single moment when something obviously goes wrong. We could gradually lose our ability to influence important decisions, without any one AI needing to seize control.
 
-Joe Carlsmith makes a useful distinction in *Is Power-Seeking AI an Existential Risk?* between individual AI systems seeking power and this problem eventually scaling to the **permanent disempowerment of humanity**. These are separate claims. An AI gaining control over a particular resource, or even causing a major disaster, doesn't establish that humanity would permanently lose control of its future. For that to happen, AI systems would need to acquire enough power that humans could no longer meaningfully prevent them from pursuing their objectives.
+Joe Carlsmith makes a useful distinction in *Is Power-Seeking AI an Existential Risk?* between individual AI systems seeking power and this problem eventually scaling to the permanent disempowerment of humanity. These are separate claims. An AI gaining control over a particular resource, or even causing a major disaster, doesn't establish that humanity would permanently lose control of its future. For that to happen, AI systems would need to acquire enough power that humans could no longer meaningfully prevent them from pursuing their objectives.
 
 And this is where the argument reaches existential risk. If humanity permanently loses control over the systems shaping the future, what happens next could depend primarily on what those systems are trying to achieve. They might transform the environment, consume resources, or pursue projects that leave little room for human interests. Human extinction is one possible outcome, but it's not the only one. Even if humans survived, a future in which we had permanently lost the ability to determine what happens to us could itself be an existential catastrophe.
 
 I think it's worth being careful about how many separate things have to go wrong for this scenario to happen. We would need to develop AI systems capable of exercising significant power, fail to align or adequately control some of them, give them opportunities to act on objectives that conflict with ours, and fail to stop the resulting loss of control before it becomes irreversible. None of these steps is guaranteed by the preceding one.
 
-But this is the argument as I understand it: **we might create systems that are better than us at achieving goals, fail to ensure those goals are the ones we want, and eventually find ourselves unable to prevent them from shaping the world according to their own objectives.**
+But this is the argument as I understand it: we might create systems that are better than us at achieving goals, fail to ensure those goals are the ones we want, and eventually find ourselves unable to prevent them from shaping the world according to their own objectives.
 
+So where does this leave us
+
+I think it's worth separating the different claims being made here, because the argument is a chain, and each step introduces its own uncertainty.
+
+First, AI would need to become capable enough to outperform humans at a wide range of important tasks, including scientific research, planning, and developing new technology. Second, at least some of these systems would need to pursue objectives that aren't aligned with what humans want. Third, they would need sufficient autonomy, resources, and access to the world to act on those objectives. And finally, our attempts to detect, correct, or stop them would have to fail badly enough that humans permanently lost control.
+
+None of these things is inevitable. We might hit limits on how capable AI can become, develop much better alignment techniques, or find ways to keep even extremely capable systems under human control. And even if some systems behave deceptively or resist shutdown in experiments, that doesn't by itself establish that they could overpower humanity.
+
+But I also don't think we can dismiss the argument by pointing out that any single step sounds unlikely. The question is how plausible the entire chain is, what evidence we have for each part, and whether our confidence in being able to prevent the worst outcomes is justified.
+
+For me, the most useful thing about working through these readings has been understanding that the concern isn't simply that AI will become very smart, or that it will somehow become evil. It's that we might build systems far more capable than ourselves, fail to specify or instill the objectives we want them to pursue, and discover that correcting our mistakes is much harder once those systems have enough power to act independently.
+
+That's the argument I'm trying to understand. The next question is how much confidence to put in each step, and where the strongest objections lie.
