@@ -34,7 +34,7 @@ Here's an example - say we use an AI system in a hospital setting to improve pat
 
 This is reward hacking - the AI finds a way to get a high reward without accomplishing what we actually intended. Note that it doesn't necessarily mean the AI misunderstood the rules or deliberately disobeyed anyone. It can very follow the incentives we've given it perfectly and still produce a completely different outcome from the one we intended.
 
-There's another different problem here: say we figure a way to reward exactly the behavior we want, how do we know the AI has learned the right lesson?
+Now way we figure a way to reward exactly the behavior we want. There's still another problem - how do we know the AI has learned the right lesson?
 
 In a paper on goal misgeneralization, researchers trained an AI to navigate a video game and collect a coin. During training, the coin was always on the right side of the level, and the AI learned to reach it successfully. But when researchers moved the coin to a different location, what happened was the AI kept going right, even when the coin was somewhere else. From the outside the AI looked like it had learned to collect coins. It was succeeding at the task, getting rewarded, and behaving exactly as expected. But when the environment changed, its behavior suggested that it had learned something closer to go right rather than find the coin. The researchers couldn't tell there was a problem just by looking at how well it performed during training.
 
