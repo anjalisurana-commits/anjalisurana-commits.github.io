@@ -1,12 +1,14 @@
 ---
 title: Why I'm Worried About AI
 layout: post
+annotations:
+  - {}
 ---
 ### Preface
 
 Over the past month, I've been trying to understand what could go wrong as AI systems become more capable, and why. I've worked through a bunch of readings, starting with *[If Anyone Builds It, Everyone Dies](https://ifanyonebuildsit.com/)* by Eliezer Yudkowsky and Nate Soares, Richard Ngo's *[AGI Safety from First Principles](https://www.alignmentforum.org/s/mzgtmmTKKn5MuCzFJ)*, and Joe Carlsmith's *[Is Power-Seeking AI an Existential Risk?](https://arxiv.org/abs/2206.13353)*, along with a bunch of other resources recommended in [lists like these](https://80000hours.org/articles/11-essential-resources-ai-risk/).
 
-By the third or fourth reading, I obviously started encountering a lot of the same arguments. It was rather tempting to click on hyperlinks and go down rabbit holes more immediately, but I found it helpful to read several different explanations instead of stopping at one (and I highly recommend it to anyone starting out with little to no context like I was). Often something I hadn't fully understood in one explanation would *click* when I read it explained in different words in another. Joe Rocca's *[Some notes on solving hard problems](https://www.lesswrong.com/posts/AcbtSuGYB4jWGYk6x/some-notes-on-solving-hard-problems)* explains this well.
+By the third or fourth reading, I started coming across a lot of the same arguments. It was tempting to click on every hyperlink and go down rabbit holes right away, but I found it extremely helpful to read several different explanations of the same ideas. I'd highly recommend this approach to anyone starting out with as little context as I had. Often something I hadn't fully understood in one explanation would *click* when I read it explained in different words in another. Joe Rocca's *[Some notes on solving hard problems](https://www.lesswrong.com/posts/AcbtSuGYB4jWGYk6x/some-notes-on-solving-hard-problems)* explains this well.
 
 My goal here is to reconstruct these arguments in some of my own words, roughly in the order I learned them, to test whether I've actually understood them. I liked this post [about learning how to explain things](https://www.lesswrong.com/posts/99mHEgk2NAk2eveZE/learning-how-to-explain-things) and the idea that understanding something and being able to explain it clearly aren't quite the same thing. I also have fresh memory of which parts confused me initially, and I want to document those reactions before they become obvious in hindsight.
 
