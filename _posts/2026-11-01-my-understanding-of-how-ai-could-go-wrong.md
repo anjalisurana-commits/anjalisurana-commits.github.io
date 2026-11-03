@@ -12,7 +12,7 @@ My goal here is to reconstruct these arguments in some of my own words, roughly 
 
 I don't claim to have fully grasped everything I've read, so please correct me if I've misunderstood or misrepresented any of the arguments.
 
-### **Intelligence:** 
+### **Intelligence:**
 
 Yudkowsky and Soares describe intelligence in terms of our ability to predict and steer the world. We can figure out how things work, and can use that to make things happen. For example: humans can't fly, but we can study physics and build airplanes. We can't breathe underwater, but we can understand how water pressure works and build submarines. And unlike a calculator that's only good at arithmetic or a chess engine that's only good at chess, we can apply what we learn across many different kinds of problems (including problems we've never encountered before). This ability (intelligence) has allowed us to shape our world. 
 
@@ -74,7 +74,7 @@ What happened here is that the model was given information about how its own tra
 
 important caveats here are that the researchers deliberately constructed an environment that made this behavior possible, and the preference the model was trying to preserve was actually a preference *against* producing harmful content. But the same mechanism would apply in a capable system that has learned a goal we don't want it to pursue.
 
-### Getting to catastrophe 
+### Getting to catastrophe
 
 Humans have governments, armies, security systems, and control over the computers these models run on. What would actually have to happen for us to lose control?
 
