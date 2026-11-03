@@ -14,7 +14,7 @@ My goal here is to reconstruct these arguments in some of my own words, roughly 
 
 I don't claim to have fully grasped everything I've read, so please correct me if I've misunderstood or misrepresented any of the arguments.
 
-### **Intelligence:**
+### **Intelligence**
 
 Yudkowsky and Soares describe intelligence in terms of our ability to predict and steer the world. We can figure out how things work, and can use that to make things happen. For example: humans can't fly, but we can study physics and build airplanes. We can't breathe underwater, but we can understand how water pressure works and build submarines. And unlike a calculator that's only good at arithmetic or a chess engine that's only good at chess, we can apply what we learn across many different kinds of problems (including problems we've never encountered before). This ability (intelligence) has allowed us to shape our world. 
 
