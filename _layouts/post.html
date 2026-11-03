@@ -2,4 +2,39 @@
 layout: default
 ---
 <a class="back" href="{{ '/' | relative_url }}">← All writing</a>
-<article><div class="eyebrow">{{ page.date | date: "%B %-d, %Y" }}</div><h1>{{ page.title | escape }}</h1><div class="prose">{{ content }}</div></article>
+<article>
+  <div class="eyebrow">{{ page.date | date: "%B %-d, %Y" }}</div>
+  <h1>{{ page.title | escape }}</h1>
+  <div class="prose" id="essay-content">{{ content }}</div>
+</article>
+{% if page.annotations and page.annotations.size > 0 %}
+<script id="essay-annotations" type="application/json">{{ page.annotations | jsonify }}</script>
+<script src="{{ '/annotations.js' | relative_url }}" defer></script>
+{% endif %}
+<section class="reader-comments" aria-labelledby="reader-comments-title">
+  <h2 id="reader-comments-title">Comments</h2>
+  <p>Questions, corrections, disagreements, and thoughts are all welcome. You'll need a GitHub account to comment.</p>
+  <script src="https://utteranc.es/client.js"
+          repo="anjalisurana-commits/anjalisurana-commits.github.io"
+          issue-term="pathname"
+          theme="github-light"
+          crossorigin="anonymous"
+          async></script>
+</section>
+<script>
+(function(){
+  var section = document.querySelector('.reader-comments');
+  if (!section) return;
+  function setTheme() {
+    var frame = section.querySelector('iframe.utterances-frame');
+    if (!frame || !frame.contentWindow) return;
+    frame.contentWindow.postMessage({
+      type: 'set-theme',
+      theme: document.documentElement.dataset.theme === 'dark' ? 'github-dark' : 'github-light'
+    }, 'https://utteranc.es');
+  }
+  new MutationObserver(setTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  new MutationObserver(setTheme).observe(section, { childList: true, subtree: false });
+  setTheme();
+})();
+</script>

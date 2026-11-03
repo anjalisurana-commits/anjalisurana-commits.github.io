@@ -26,6 +26,24 @@ content:
       - name: body
         label: Your writing
         type: rich-text
+      - name: annotations
+        label: Author notes (shown beside passages)
+        description: Add a note by copying a short, unique sentence or phrase from the essay and writing your comment. Notes show as small clickable markers beside the matching paragraph.
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{quote}"
+        fields:
+          - name: quote
+            label: Exact quote from your essay
+            description: Paste a short unique fragment from one paragraph. Match the published words exactly.
+            type: text
+            required: true
+          - name: note
+            label: Your note
+            type: text
+            required: true
   - name: homepage
     label: Homepage text
     type: file
