@@ -1,5 +1,5 @@
 ---
-title: My understanding of how AI could go wrong
+title: Why I'm Worried About AI
 layout: post
 ---
 ### Preface
