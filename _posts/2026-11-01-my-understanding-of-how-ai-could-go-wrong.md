@@ -1,5 +1,5 @@
 ---
-title: "Why I'm Worried About AI Catastrophe "
+title: Catastrophic AI Risk
 layout: post
 annotations:
   - {}
