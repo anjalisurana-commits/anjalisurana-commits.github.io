@@ -1,7 +1,5 @@
 ---
 title: "Mesa-Optimizers "
-topic: Learning things and then trying to explain them as a way to test my
-  understanding
 layout: post
 ---
 I read *[Risks from Learned Optimization in Advanced Machine Learning Systems](https://arxiv.org/abs/1906.01820)*, which introduces the idea of *mesa-optimization*. Writing forces me to reconstruct the argument in my own words, so my goal here is to work through the argument from first principles. These are my notes on the main ideas from this paper and the examples that helped me understand them: 
